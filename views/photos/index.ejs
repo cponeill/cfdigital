@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  	<div id='photos'>
+  	  <% photos.forEach(function(photo) { %>
+  	    <div class='photo'>
+  	      <center><img src='<%=photo.path%>'/></center>
+  	    </div>
+  	  <% }) %>
+  	</div>
+  </body>
+</html>
